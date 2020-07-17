@@ -1,0 +1,277 @@
+/*header*/
+ p{
+ 	font-size: 12px;
+ 	color: grey;
+ }
+#header{
+	height: 100px;
+}
+#mainlogo{                         
+	width: 4.2em;        
+	height:4.2em;          
+	object-fit: cover;
+	padding-left: 30px;
+	margin-top: 10px;
+	
+
+	
+}
+
+
+span{
+	vertical-align: top;
+    margin-top: 10px;
+	height: 80px;
+	width: 80px;
+	
+	}
+.white{
+	color: white;
+}
+.inline{
+	display: inline-block;
+
+}
+#fav{
+	vertical-align: top;
+	width: 50vw;
+	margin-top: 35px;
+	padding-left: 10vw;
+}
+#searchbox{
+	
+	border-radius: 10px;
+	float: right;
+	background-color: lightgrey;
+}
+
+#search{
+	height: 20px;
+	width: 20px;
+	vertical-align: top;
+	float: right;
+	filter: brightness(400%);
+	margin-left: 2px;
+}
+#notification{
+	vertical-align: top;
+	border-right: 50%;
+	margin-top: 32px;
+	margin-left: 40px;
+	height: 25px;
+	width: 20px;
+}
+#userpic{
+	vertical-align: top;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 4vw;
+    float: right;	
+	
+	margin-top: 25px;
+}
+
+/*about section*/
+
+.sixty-width{
+
+	width: 60vw;
+	margin-left: 7vw;
+
+
+}
+#main
+{
+	margin-top: 20px;
+	width: 70%;
+	height: auto;
+}
+#about{
+	height: auto;
+}
+
+#about img{
+    object-fit: cover;
+	height: 20vw;
+	width: 20vw;
+}
+#about-text{
+	width: 60%;
+	margin-left: 2vw;
+	margin-top: 20px;
+	vertical-align: top;
+}
+#play-all-btn{
+	height: 30px;
+	width: 100px;
+	color: white;
+    text-align: center;
+    margin-top: 2vw;
+    background-image: linear-gradient(to right, purple, #e34420);
+
+}
+
+#play-all-btn h5{
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#follow{
+	font-size: .8rem;
+	font-family: sans-serif;
+	color: white;
+	vertical-align: top;
+	margin-top:  35px;
+	margin-left: 4vw;
+}
+#Tracks{
+	margin-top: 0px;
+	color: white;
+	font-size: 10px;
+}
+/*songs list section*/
+
+.songs{
+	height: 40px;
+	background-color: #121111;
+	margin-top: 5px;
+
+}
+#song-list{
+
+	margin-top: 10px;
+}
+.songs-cover{
+	border-radius: 2px;
+	margin: 5px;
+	vertical-align: top;
+	height: 30px;
+	width: 30px;
+}
+#song-name{
+	vertical-align: top;
+}
+#song-name p{
+	margin-top: -27px;
+	font-size: 11px;
+}
+#song-name h6{
+	font-size: 12px;
+	color: white;
+}
+#likee{
+	margin-left: 70%;
+	margin-right: 0px;
+	vertical-align: top;
+	margin-top: 12px;
+	height: 15px;
+	width: 18px;
+}
+#plus{
+	
+	
+	margin-left:  3%;
+	vertical-align: top;
+	margin-top: 12px;
+}
+
+/*aside section*/
+
+/*similar artist section*/
+aside{
+	width: 28%;
+	height: auto;
+
+	vertical-align: top;
+}
+.artist{
+	border-radius: 2%;
+	height: 5.5vw;
+	width: 5.5vw;
+}
+#aside h5{
+
+	vertical-align: top;
+	margin-top: -35px;
+}
+
+.space{
+	margin-top: 5px;
+}
+
+/*recently played section*/
+
+#heart{
+	margin-top: 12px;
+	height: 15px;
+	width: 18px;
+	vertical-align: top;
+	margin-left:  30%;
+}
+
+/*player section*/
+
+#player{
+	height: 60px;
+	width: 100%;
+	background-color: orange;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-image: linear-gradient(to top, #4f3659, #733a29);
+
+}
+#flick{
+	object-fit: cover;
+	height: 45px;
+	width: 45px;
+	padding: 7.5px;
+}
+
+.divmargin{
+	margin-top: 13px;
+}
+
+
+#bar
+{
+	border-radius: 4px;
+	margin-top: 30px;
+	vertical-align: top;
+	height: 4px;
+	width: 300px;
+	background-color: green;
+	background-image: linear-gradient(to right, green, white);
+}
+#point{
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: -4px;
+	vertical-align: top;
+	margin-left: 170px;
+}
+#play{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+#play img{
+	object-fit: cover;
+	height: 30px;
+	width: 30px;
+    filter: brightness(400%);
+    margin-top: 7px;
+}
+#time{
+	vertical-align: top;
+	margin-top: 13px;
+}

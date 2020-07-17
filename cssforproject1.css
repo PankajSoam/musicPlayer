@@ -1,0 +1,311 @@
+ /*header*/
+ p{
+ 	font-size: 12px;
+ 	color: grey;
+ }
+#header{
+	height: 100px;
+}
+#mainlogo{                         
+	width: 4.2em;        
+	height:4.2em;          
+	object-fit: cover;
+	padding-left: 30px;
+	margin-top: 10px;
+	
+
+	
+}
+
+
+span{
+	vertical-align: top;
+    margin-top: 10px;
+	height: 80px;
+	width: 80px;
+	
+	}
+.white{
+	color: white;
+}
+.inline{
+	display: inline-block;
+}
+#fav{
+	vertical-align: top;
+	width: 50vw;
+	margin-top: 35px;
+	padding-left: 10vw;
+}
+#searchbox{
+	
+	border-radius: 10px;
+	float: right;
+	background-color: lightgrey;
+}
+
+#search{
+	height: 20px;
+	width: 20px;
+	vertical-align: top;
+	float: right;
+	filter: brightness(400%);
+	margin-left: 2px;
+}
+#notification{
+	vertical-align: top;
+	border-right: 50%;
+	margin-top: 32px;
+	margin-left: 40px;
+	height: 25px;
+	width: 20px;
+}
+#userpic{
+	vertical-align: top;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 4vw;
+    float: right;	
+	
+	margin-top: 25px;
+}
+
+
+/*main*/
+
+}
+#mainblock{
+	height: auto;
+	width: 75vw;
+}
+
+.flex-container{	
+	height: auto;
+	width: 75vw; 
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	flex-wrap: wrap;
+	
+}
+.flex-size{
+	padding: 15px;
+	padding-top: 30px;
+	height: 200px;
+	width: 200px;
+	transition: transform 0.2s;
+
+}
+#big-cards{
+	height: 260px;
+	width: 75vw;
+}
+#big-cards img{
+	filter: contrast(120%);
+	filter: brightness(90%);
+	height: 200px;
+	width: 200px;
+}
+
+#big-cards img:hover{
+	
+	filter: brightness(100%);
+	filter: contrast(100%);
+ transform: scale(1.2);
+}
+.center{
+	justify-content: center;
+}
+.title{
+	
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 71.25vw;
+	padding-left: 5%;
+}
+/*latest release section*/
+#latest-release img{
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+}
+
+#latest-release div{
+	transition: transform 0.2s;
+	height: 100px;
+	width: 40%;
+}
+#latest-release p{
+	vertical-align: top;
+	padding-top: 12px;
+}
+.floatright{
+	float: right;
+	padding-right: 10px;
+}
+#latest-release div:hover{
+	
+ transform: scale(1.05);
+ filter: brightness(120%);
+
+}
+
+
+/*popular artist section*/
+
+#popular-artist{
+	height: 110px;
+}
+#popular-artist img{
+	filter: contrast(120%) brightness(90%);
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	padding: 5px;
+	transition: transform 0.1s;
+}
+.artist{
+	height: 80px;
+	width: 80px;
+}
+#popular-artist p{
+	padding-left: 32%;
+	margin-top: -8px;
+}
+#popular-artist img:hover{
+	
+	transform: scale(1.1);
+	filter: contrast(100%) brightness(110%);
+}
+
+/*latest english section*/
+#english img{
+	height: 80px;
+	width: 80px;
+	padding: 5px;
+}
+#english p{
+	margin-top: -8px;
+	padding-left: 7%;
+}
+
+/*aside*/
+
+#aside{
+	vertical-align: top;
+	height: auto;
+
+	margin-left: -0.5%;
+	width: 22%;
+}
+.flicker{
+
+	padding-left: 6px;
+	height: 40px;
+	width: 40px;
+	border-radius: 4px;
+}
+#aside p{
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.asidediv{
+	height: 50px;
+
+}
+#like{
+	float: right;
+	margin-top: 12px;
+	height: 15px;
+	width: 18px;
+	
+}
+
+/*player section*/
+
+#player{
+	height: 60px;
+	width: 100%;
+	background-color: orange;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-image: linear-gradient(to top, #4f3659, #733a29);
+
+}
+#flick{
+	object-fit: cover;
+	height: 45px;
+	width: 45px;
+	padding: 7.5px;
+	vertical-align: top;
+}
+
+.divmargin{
+	margin-top: 13px;
+}
+
+
+#bar
+{
+	border-radius: 4px;
+	margin-top: 30px;
+	vertical-align: top;
+	height: 4px;
+	width: 300px;
+	background-color: green;
+	background-image: linear-gradient(to right, green, white);
+}
+#point{
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: -4px;
+	vertical-align: top;
+	margin-left: 170px;
+}
+#play{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+#play img{
+	object-fit: cover;
+	height: 30px;
+	width: 30px;
+    filter: brightness(400%);
+    margin-top: 7px;
+}
+#time{
+	vertical-align: top;
+	margin-top: 13px;
+}
+
+.sixty-width{
+
+	width: 60vw;
+	margin-left: 7vw;
+
+
+}
+
+#song-name h6{
+	color: white;
+	vertical-align: top;
+	font-size: 12px;
+
+}
+#song-name p{
+	vertical-align: top;
+	margin-top: -25px;
+
+
+}
+
